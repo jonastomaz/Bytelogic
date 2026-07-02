@@ -1,0 +1,42 @@
+.content{
+    display:flex;
+    height:calc(100vh - 60px);
+}
+
+.left-div{
+    width:250px;
+    background:#d9d9d9;
+    padding:20px;
+}
+
+.right-div{
+    flex:1;
+    background:url("../assets/imagens/fundoGeometrico.png");
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.call-to-action{
+    font-family:'Bebas Neue',sans-serif;
+    font-size:70px;
+    color:#05538e;
+}
+
+.highlight{
+    background:#05538e;
+    color:white;
+}
+
+.menu-btn{
+    display:block;
+    padding:15px;
+    margin-bottom:10px;
+    color:#05538e;
+    border-radius:5px;
+}
+
+.menu-btn:hover{
+    background:#eee;
+}
